@@ -10,6 +10,6 @@ end
 
 def assign_rooms(attendees)
   room_assignments = []
-  attendees.each_with_index { |item, index| room_assignments[item] = index}
+  attendees.each_with_index { |item, index| }
   room_assignments
 end
