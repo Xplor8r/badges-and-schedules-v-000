@@ -20,3 +20,4 @@ def printer(attendees)
   badges.push(badge_maker(attendee))
   room_assignments.push("Hello, #{attendee}! You'll be assigned to room #{index + 1}!")
 end
+end
