@@ -4,7 +4,7 @@ end
 
 def batch_badge_creator(attendees)
   badges = []
-  attendees.each {|element| badges.push(badge_maker(element))}
+  attendees.each {|attendee| badges.push(badge_maker(attendee))}
   badges
 end
 
@@ -14,7 +14,3 @@ def assign_rooms(attendees)
   room_assignments
 end
 
-def printer(attendees)
-  puts batch_badge_creator(attendees[0])
-  puts assign_rooms(attendees[0])
-end
